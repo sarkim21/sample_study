@@ -1,6 +1,6 @@
 #! /bin/bash
 
-module load anacondapy/5.3.1 #you can remove this line if you are working in your own conda environment
+#module load anacondapy/5.3.1 #you can remove this line if you are working in your own conda environment
 
 # 1. Edit wherever the dicoms get transferred on the scanner
 
@@ -9,7 +9,7 @@ module load anacondapy/5.3.1 #you can remove this line if you are working in you
 scanner_dir=/jukebox/norman/pygers/conquest #Sample project data
 
 # 2. Edit where your project directory is
-project_dir=/jukebox/YOURLAB/USERNAME/YOURSTUDY
+project_dir=/jukebox/graziano/sarah/pygers_workshop/sample_study
 
 # 3. Edit where your scratch and work directories are located (note: make sure you have setup a work directory on scratch)
 scratch_dir=/jukebox/scratch/USERNAME/work/YOURSTUDY
